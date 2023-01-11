@@ -1,0 +1,27 @@
+###
+GET http://127.0.0.1:8000/api-auth/login/
+
+###
+POST http://127.0.0.1:8000/api-auth/login/
+Content-Type: application/json
+
+{
+   "username": "loki",
+   "password": "kira"
+}
+
+###
+
+POST http://127.0.0.1:8000/submit/
+Content-Type: application/json
+
+{
+"url": "https://www.google.com/maps"
+}
+
+###
+
+GET http://127.0.0.1:8000/caracas
+
+###
+GET http://127.0.0.1:8000/rs4H6x/stats
